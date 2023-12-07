@@ -22,7 +22,11 @@ classifiers = [
     "Topic :: Scientific/Engineering :: GIS",
 ]
 dependencies = [
+    "click"
 ]
+
+[project.scripts]
+letsfarm = "src.cli:main"
 
 [project.urls]
 Homepage = "hhttps://github.com/letsfarmafrica/s2_image_downloader"
